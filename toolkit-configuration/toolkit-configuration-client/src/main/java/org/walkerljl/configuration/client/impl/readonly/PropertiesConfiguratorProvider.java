@@ -9,6 +9,7 @@ import java.util.Properties;
 import org.walkerljl.configuration.client.impl.AbstractConfiguratorProvider;
 import org.walkerljl.configuration.client.impl.ConfiguratorProvider;
 import org.walkerljl.toolkit.lang.io.StreamUtils;
+import org.walkerljl.toolkit.standard.resource.Resource;
 import org.walkerljl.toolkit.standard.resource.exception.CannotDestroyResourceException;
 import org.walkerljl.toolkit.standard.resource.exception.CannotInitResourceException;
 
@@ -41,7 +42,7 @@ public class PropertiesConfiguratorProvider extends AbstractConfiguratorProvider
     }
 
     @Override
-    public void init() throws CannotInitResourceException {
+    public Resource init() throws CannotInitResourceException {
         if (!inited) {
             synchronized (this) {
                 if (!inited) {
@@ -51,11 +52,15 @@ public class PropertiesConfiguratorProvider extends AbstractConfiguratorProvider
                 }
             }
         }
+
+        return this;
     }
 
     @Override
-    public void destroy() throws CannotDestroyResourceException {
+    public Resource destroy() throws CannotDestroyResourceException {
         propertiesMap = null;
+
+        return this;
     }
 
     @Override

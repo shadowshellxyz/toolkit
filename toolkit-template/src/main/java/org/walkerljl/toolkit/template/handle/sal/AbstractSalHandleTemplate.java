@@ -39,6 +39,7 @@ public abstract class AbstractSalHandleTemplate extends AbstractHandleTemplate {
             //业务执行
             result = handler.handle(invocationInfo.getParam());
 
+            invocationInfo.markSuccess(result);
         } catch (Throwable e) {
             if (invocationInfo != null) {
                 invocationInfo.markFailure(e);

@@ -17,11 +17,33 @@
         <module>toolkit-db-ds</module>
     </modules>
 
-    <!-- test -->
     <dependencies>
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
+            <groupId>org.walkerljl.toolkit</groupId>
+            <artifactId>toolkit-standard</artifactId>
+            <version>${project.parent.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.walkerljl.toolkit</groupId>
+            <artifactId>toolkit-logging</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId>mysql</groupId>-->
+            <!--<artifactId>mysql-connector-java</artifactId>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>commons-dbcp</groupId>-->
+            <!--<artifactId>commons-dbcp</artifactId>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>com.alibaba</groupId>-->
+            <!--<artifactId>druid</artifactId>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>com.mchange</groupId>-->
+            <!--<artifactId>c3p0</artifactId>-->
+        <!--</dependency>-->
     </dependencies>
 </project>

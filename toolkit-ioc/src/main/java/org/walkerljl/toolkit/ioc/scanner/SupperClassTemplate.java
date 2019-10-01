@@ -1,4 +1,4 @@
-package org.walkerljl.toolkit.scanner;
+package org.walkerljl.toolkit.ioc.scanner;
 
 /**
  * 获取子类的模板类

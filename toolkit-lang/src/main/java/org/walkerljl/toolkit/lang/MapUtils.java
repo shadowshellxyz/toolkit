@@ -1,9 +1,12 @@
 package org.walkerljl.toolkit.lang;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * MapUtils
@@ -126,21 +129,28 @@ public class MapUtils {
 
     /**
      * list value list
+     *
      * @param map
      * @return
      */
     public static <K, V> List<V> listValues(Map<K, V> map) {
-        if (MapUtils.isEmpty(map)) {
+        if (isEmpty(map)) {
             return null;
         }
-        List<V> values = new ArrayList<V>();
+        Set<V> values = new HashSet<V>();
         for (Map.Entry<K, V> entry : map.entrySet()) {
             V value = entry.getValue();
-            if (!values.contains(value)) {
+            if (value == null) {
+                continue;
+            }
+            if (value instanceof Collection<?>) {
+                values.addAll((Collection<? extends V>) value);
+            } else {
                 values.add(value);
             }
         }
-        return values;
+
+        return new ArrayList<V>(values);
     }
 
     /**
@@ -242,4 +252,44 @@ public class MapUtils {
         }
         return null;
     }
+
+    public static <K, V> Map<K, V> intersect(Map<K, V> map1, Map<K, V> map2) {
+        if (isEmpty(map1)) {
+            return null;
+        }
+        if (isEmpty(map2)) {
+            return null;
+        }
+
+        Map<K, V> resultMap = new HashMap<K, V>(map1.size());
+        for (Map.Entry<K, V> entry : map1.entrySet()) {
+            if (map2.containsKey(entry.getKey())) {
+                resultMap.put(entry.getKey(), entry.getValue());
+            }
+        }
+
+        return resultMap;
+    }
+
+    ///**
+    // * list value list
+    // *
+    // * @param map
+    // * @return
+    // */
+    //public static <K, V> List<V> listValues(Map<K, Collection<V>> map) {
+    //    if (isEmpty(map)) {
+    //        return null;
+    //    }
+    //    Set<V> values = new HashSet<>();
+    //    for (Map.Entry<K, Collection<V>> entry : map.entrySet()) {
+    //        Collection<V> value = entry.getValue();
+    //        if (value == null) {
+    //            continue;
+    //        }
+    //        values.addAll(value);
+    //    }
+    //
+    //    return new ArrayList<>(values);
+    //}
 }

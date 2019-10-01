@@ -5,7 +5,6 @@ import java.util.Collections;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
-import org.walkerljl.toolkit.standard.exception.AppException;
 import org.walkerljl.toolkit.standard.repository.ObjectRepository;
 import org.walkerljl.toolkit.standard.repository.exception.ObjectRepositoryException;
 
@@ -16,7 +15,7 @@ import org.walkerljl.toolkit.standard.repository.exception.ObjectRepositoryExcep
  */
 public class AbstractObjectRepository<KEY, VALUE> implements ObjectRepository<KEY, VALUE> {
 
-    private final ConcurrentMap<KEY, VALUE> repository = new ConcurrentHashMap<>();
+    private final ConcurrentMap<KEY, VALUE> repository = new ConcurrentHashMap<KEY, VALUE>();
 
     @Override
     public void register(KEY key, VALUE value) {

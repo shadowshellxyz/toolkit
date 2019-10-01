@@ -3,7 +3,7 @@ package org.walkerljl.toolkit.template.log.model;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.walkerljl.toolkit.standard.model.BaseEntity;
+import org.walkerljl.toolkit.standard.model.BaseModel;
 
 /**
  * 调用信息
@@ -11,7 +11,7 @@ import org.walkerljl.toolkit.standard.model.BaseEntity;
  * @author xingxun
  * @Date 2016/11/25
  */
-public class InvocationInfo<PARAM, RESULT> extends BaseEntity {
+public class InvocationInfo<PARAM, RESULT> extends BaseModel {
 
     /** 状态:成功*/
     public static final int STATE_SUCCESS = 1;

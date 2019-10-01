@@ -11,5 +11,37 @@
 
     <artifactId>toolkit-db-core</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.walkerljl.toolkit</groupId>
+            <artifactId>toolkit-db-api</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
 
+        <dependency>
+            <groupId>org.walkerljl.toolkit</groupId>
+            <artifactId>toolkit-standard</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.walkerljl.toolkit</groupId>
+            <artifactId>toolkit-logging</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.walkerljl.toolkit</groupId>
+            <artifactId>toolkit-cache</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.walkerljl.toolkit</groupId>
+            <artifactId>toolkit-configuration-client</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+    </dependencies>
 </project>

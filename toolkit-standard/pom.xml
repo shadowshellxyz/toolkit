@@ -11,5 +11,11 @@
 
     <artifactId>toolkit-standard</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.walkerljl.toolkit</groupId>
+            <artifactId>toolkit-logging</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
 </project>

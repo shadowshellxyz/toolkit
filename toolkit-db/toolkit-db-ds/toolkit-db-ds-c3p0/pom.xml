@@ -11,5 +11,10 @@
 
     <artifactId>toolkit-db-ds-c3p0</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.mchange</groupId>
+            <artifactId>c3p0</artifactId>
+        </dependency>
+    </dependencies>
 </project>

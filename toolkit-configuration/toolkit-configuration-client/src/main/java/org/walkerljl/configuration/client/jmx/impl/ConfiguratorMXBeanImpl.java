@@ -4,6 +4,7 @@ import org.walkerljl.configuration.client.impl.RemotableConfigurator;
 import org.walkerljl.configuration.client.ConfiguratorException;
 import org.walkerljl.configuration.client.jmx.ConfiguratorMXBean;
 import org.walkerljl.toolkit.standard.exception.AppException;
+import org.walkerljl.toolkit.standard.resource.Resource;
 
 /**
  * ConfiguratorMXBeanImpl
@@ -19,21 +20,25 @@ public class ConfiguratorMXBeanImpl implements ConfiguratorMXBean {
     }
 
     @Override
-    public void init() throws AppException {
+    public Resource init() throws AppException {
         try {
             target.init();
         } catch (Exception e) {
             throw new ConfiguratorException(e);
         }
+
+        return this;
     }
 
     @Override
-    public void destroy() {
+    public Resource destroy() {
         try {
             target.destroy();
         } catch (Exception e) {
             throw new ConfiguratorException(e);
         }
+
+        return this;
     }
 
     @Override

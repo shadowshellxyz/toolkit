@@ -8,10 +8,11 @@ import org.walkerljl.toolkit.ioc.annotation.Component;
 import org.walkerljl.toolkit.ioc.annotation.Controller;
 import org.walkerljl.toolkit.ioc.annotation.Repository;
 import org.walkerljl.toolkit.ioc.annotation.Service;
+import org.walkerljl.toolkit.ioc.scanner.ClassScannerUtils;
 import org.walkerljl.toolkit.lang.StringUtils;
 import org.walkerljl.toolkit.logging.Logger;
 import org.walkerljl.toolkit.logging.LoggerFactory;
-import org.walkerljl.toolkit.scanner.ClassScannerUtils;
+
 
 /**
  * 初始化Bean

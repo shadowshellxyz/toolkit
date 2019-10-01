@@ -11,5 +11,11 @@
 
     <artifactId>toolkit-configuration-client</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.walkerljl.toolkit</groupId>
+            <artifactId>toolkit-lang</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
 </project>

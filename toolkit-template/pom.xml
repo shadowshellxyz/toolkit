@@ -11,5 +11,31 @@
 
     <artifactId>toolkit-template</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.walkerljl.toolkit</groupId>
+            <artifactId>toolkit-standard</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.walkerljl.toolkit</groupId>
+            <artifactId>toolkit-logging</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
 
+        <!-- fastjson begin-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+        <!-- fastjson end-->
+
+        <!-- aopalliance begin-->
+        <dependency>
+            <groupId>aopalliance</groupId>
+            <artifactId>aopalliance</artifactId>
+        </dependency>
+        <!-- aopalliance end-->
+
+    </dependencies>
 </project>

@@ -1,7 +1,7 @@
 package org.walkerljl.toolkit.ioc;
 
 import org.walkerljl.toolkit.standard.exception.AppException;
-import org.walkerljl.toolkit.standard.exception.ErrorCode;
+import org.walkerljl.toolkit.standard.exception.code.ErrorCode;
 
 /**
  * 应用异常

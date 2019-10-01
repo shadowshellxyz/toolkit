@@ -58,7 +58,7 @@ public class LoggerDetailUtil extends AbstractLogUtil {
         sb.append(LOG_PARAM_PREFIX).append(toJSONString(invocationInfo.getParam()));
 
         sb.append(LOG_PARAM_SUFFIX).append(LOG_PARAM_PREFIX);
-        sb.append(null == invocationInfo.getDirectResultData() ? invocationInfo.getDirectResultData()
+        sb.append(null == invocationInfo.getDirectResultData() ? toJSONString(invocationInfo.getResultData())
                 : toJSONString(invocationInfo.getDirectResultData())).append(
                 LOG_PARAM_SUFFIX);
         //异常

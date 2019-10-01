@@ -3,7 +3,7 @@
  * The software source code all copyright belongs to the author, 
  * without permission shall not be any reproduction and transmission.
  */
-package org.walkerljl.toolkit.scanner;
+package org.walkerljl.toolkit.ioc.scanner;
 
 import java.io.File;
 import java.io.FileFilter;

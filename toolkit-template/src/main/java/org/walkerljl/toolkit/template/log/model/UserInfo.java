@@ -1,13 +1,13 @@
 package org.walkerljl.toolkit.template.log.model;
 
-import org.walkerljl.toolkit.standard.model.BaseEntity;
+import org.walkerljl.toolkit.standard.model.BaseModel;
 
 /**
  * 用户信息
  *
  * @author xingxun
  */
-public class UserInfo extends BaseEntity {
+public class UserInfo extends BaseModel {
 
     /** ID*/
     private String id;

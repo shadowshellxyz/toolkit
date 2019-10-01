@@ -7,7 +7,7 @@ import org.mockito.MockitoAnnotations;
 /**
  * BaseTest
  *
- * @author lijunlin
+ * @author xingxun
  */
 public abstract class BaseTest {
 

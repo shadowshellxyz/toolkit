@@ -7,6 +7,7 @@ import org.walkerljl.configuration.client.impl.AbstractConfiguratorProvider;
 import org.walkerljl.configuration.client.impl.ConfiguratorProvider;
 import org.walkerljl.toolkit.logging.Logger;
 import org.walkerljl.toolkit.logging.LoggerFactory;
+import org.walkerljl.toolkit.standard.resource.Resource;
 import org.walkerljl.toolkit.standard.resource.exception.CannotDestroyResourceException;
 
 /**
@@ -63,11 +64,13 @@ public class JvmConfigurator extends AbstractConfiguratorProvider implements Con
     }
 
     @Override
-    public void destroy() throws CannotDestroyResourceException {
+    public Resource destroy() throws CannotDestroyResourceException {
         propertiesMap = new ConcurrentHashMap<String, Object>();
         if (LOGGER.isDebugEnabled()) {
             LOGGER.debug(String.format("%s清除缓存", getClass()));
         }
+
+        return this;
     }
 
     /**

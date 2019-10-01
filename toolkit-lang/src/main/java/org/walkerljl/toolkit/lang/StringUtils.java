@@ -2889,7 +2889,7 @@ public final class StringUtils {
         if (itemArray == null || itemArray.length == 0) {
             return null;
         }
-        List<String> resultList = new ArrayList<>(itemArray.length);
+        List<String> resultList = new ArrayList<String>(itemArray.length);
         for (String item : itemArray) {
             resultList.add(item);
         }

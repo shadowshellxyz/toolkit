@@ -318,7 +318,7 @@ public class CollectionUtils {
             return null;
         }
 
-        Set<T> resultSet = new HashSet<>(collection.size());
+        Set<T> resultSet = new HashSet<T>(collection.size());
         for (T item : collection) {
             resultSet.add(item);
         }

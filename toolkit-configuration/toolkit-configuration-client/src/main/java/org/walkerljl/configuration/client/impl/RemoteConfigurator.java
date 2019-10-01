@@ -6,6 +6,7 @@ import java.util.Set;
 
 import org.walkerljl.configuration.client.Configurator;
 import org.walkerljl.configuration.client.ConfiguratorException;
+import org.walkerljl.toolkit.standard.resource.Resource;
 import org.walkerljl.toolkit.standard.resource.exception.CannotDestroyResourceException;
 import org.walkerljl.toolkit.standard.resource.exception.CannotInitResourceException;
 
@@ -23,21 +24,25 @@ public class RemoteConfigurator implements Configurator {
     }
 
     @Override
-    public void init() throws CannotInitResourceException {
+    public Resource init() throws CannotInitResourceException {
         try {
             target.init();
         } catch (Exception e) {
             throw new CannotInitResourceException(e);
         }
+
+        return this;
     }
 
     @Override
-    public void destroy() throws CannotDestroyResourceException {
+    public Resource destroy() throws CannotDestroyResourceException {
         try {
             target.destroy();
         } catch (Exception e) {
             throw new CannotDestroyResourceException(e);
         }
+
+        return this;
     }
 
     @Override

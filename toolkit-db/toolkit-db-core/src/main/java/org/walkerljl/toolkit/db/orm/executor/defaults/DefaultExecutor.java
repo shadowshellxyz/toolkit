@@ -293,7 +293,7 @@ public class DefaultExecutor implements Executor {
     private void printSQL(String sql, Object... params) {
         if (LOG.isDebugEnabled()) {
             LOG.debug("[orgwalkerljl-db] SQL - " + sql);
-            int paramsLength = ArraysUtils.size(params);
+            int paramsLength = ArraysUtils.length(params);
             if (paramsLength != 0) {
                 StringBuilder paramsString = new StringBuilder();
                 paramsString.append(params[0] == null ? "null" : params[0].toString());

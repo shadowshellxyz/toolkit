@@ -7,6 +7,7 @@ import java.util.Set;
 import org.walkerljl.configuration.client.Configurator;
 import org.walkerljl.configuration.client.ConfiguratorException;
 import org.walkerljl.toolkit.standard.exception.AppException;
+import org.walkerljl.toolkit.standard.resource.Resource;
 
 /**
  * @author: lijunlin
@@ -20,21 +21,25 @@ public class StdConfigurator implements Configurator {
     }
 
     @Override
-    public void init() throws AppException {
+    public Resource init() throws AppException {
         try {
             target.init();
         } catch (Exception e) {
             throw new ConfiguratorException(e);
         }
+
+        return this;
     }
 
     @Override
-    public void destroy() {
+    public Resource destroy() {
         try {
             target.destroy();
         } catch (Exception e) {
             throw new ConfiguratorException(e);
         }
+
+        return this;
     }
 
     @Override
