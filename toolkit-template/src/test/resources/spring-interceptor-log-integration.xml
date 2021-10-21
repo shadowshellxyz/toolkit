@@ -6,7 +6,7 @@
        default-autowire="byName">
 
     <bean id="integrationLogInterceptor"
-          class="org.walkerljl.toolkit.template.log.interceptor.IntegrationLogInterceptor"/>
+          class="net.shadowdefender.toolkit.template.log.interceptor.IntegrationLogInterceptor"/>
 
     <bean id="integrationLogInterceptorCreator"
           class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
