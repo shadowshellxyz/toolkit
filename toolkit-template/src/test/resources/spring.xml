@@ -8,8 +8,9 @@
     <import resource="spring-interceptor-log-integration.xml"/>
     <import resource="spring-interceptor-log-service.xml"/>
 
-    <bean id="helloFacade" class="net.shadowdefender.toolkit.template.service.facade.impl.HelloFacadeImpl"></bean>
-    <bean id="helloFacadeClient" class="net.shadowdefender.toolkit.template.service.integration.impl.HelloFacadeClientImpl">
+    <bean id="helloFacade" class="xyz.shadowshell.toolkit.template.service.facade.impl.HelloFacadeImpl"></bean>
+    <bean id="helloFacadeClient"
+          class="xyz.shadowshell.toolkit.template.service.integration.impl.HelloFacadeClientImpl">
         <property name="helloFacade" ref="helloFacade"></property>
     </bean>
 

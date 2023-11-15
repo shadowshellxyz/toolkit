@@ -5,10 +5,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
        default-autowire="byName">
 
-    <bean id="helloFacade" class="net.shadowdefender.toolkit.template.service.facade.impl.HelloFacadeImpl"></bean>
+    <bean id="helloFacade" class="xyz.shadowshell.toolkit.template.service.facade.impl.HelloFacadeImpl"></bean>
 
     <bean id="serviceLogInterceptor"
-          class="net.shadowdefender.toolkit.template.log.interceptor.ServiceLogInterceptor"/>
+          class="xyz.shadowshell.toolkit.template.log.interceptor.ServiceLogInterceptor"/>
 
     <bean id="serviceLogInterceptorCreator"
           class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">

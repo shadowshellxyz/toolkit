@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.shadowdefender.toolkit</groupId>
+    <groupId>xyz.shadowshell.toolkit</groupId>
     <artifactId>toolkit</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
@@ -17,14 +17,9 @@
         <module>toolkit-configuration</module>
         <module>toolkit-ioc</module>
         <module>toolkit-aop</module>
-        <module>toolkit-tracer</module>
-        <module>toolkit-security</module>
         <module>toolkit-sirector</module>
-        <module>toolkit-mail</module>
         <module>toolkit-cache</module>
-        <module>toolkit-id-gen</module>
         <module>toolkit-officesuite</module>
-        <module>toolkit-demo</module>
     </modules>
 
     <properties>
@@ -109,7 +104,7 @@
             <dependency>
                 <groupId>aopalliance</groupId>
                 <artifactId>aopalliance</artifactId>
-            <version>1.0</version>
+                <version>1.0</version>
             </dependency>
             <!-- aopalliance end-->
 

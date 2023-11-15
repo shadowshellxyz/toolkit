@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>toolkit-db</artifactId>
-        <groupId>net.shadowdefender.toolkit</groupId>
+        <groupId>xyz.shadowshell.toolkit</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -19,21 +19,21 @@
 
     <dependencies>
         <dependency>
-            <groupId>net.shadowdefender.toolkit</groupId>
+            <groupId>xyz.shadowshell.toolkit</groupId>
             <artifactId>toolkit-db-core</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>${project.parent.version}</version>
         </dependency>
         <!--<dependency>-->
-            <!--<groupId>commons-dbcp</groupId>-->
-            <!--<artifactId>commons-dbcp</artifactId>-->
+        <!--<groupId>commons-dbcp</groupId>-->
+        <!--<artifactId>commons-dbcp</artifactId>-->
         <!--</dependency>-->
         <!--<dependency>-->
-            <!--<groupId>com.alibaba</groupId>-->
-            <!--<artifactId>druid</artifactId>-->
+        <!--<groupId>com.alibaba</groupId>-->
+        <!--<artifactId>druid</artifactId>-->
         <!--</dependency>-->
         <!--<dependency>-->
-            <!--<groupId>com.mchange</groupId>-->
-            <!--<artifactId>c3p0</artifactId>-->
+        <!--<groupId>com.mchange</groupId>-->
+        <!--<artifactId>c3p0</artifactId>-->
         <!--</dependency>-->
     </dependencies>
 </project>
