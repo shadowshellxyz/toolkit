@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 默认的类扫描器
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 class DefaultClassScanner implements ClassScanner {
 

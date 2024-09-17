@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * 数据库映射信息
  *
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class TableMappingInfo implements Serializable {
 

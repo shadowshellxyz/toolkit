@@ -3,7 +3,7 @@ package xyz.shadowshell.configuration.client;
 import xyz.shadowshell.configuration.client.impl.readonly.PropertiesConfiguratorProvider;
 
 /**
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class ConfiguratorFactoryTest {
 

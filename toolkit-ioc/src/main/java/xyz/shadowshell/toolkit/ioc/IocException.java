@@ -6,7 +6,7 @@ import xyz.shadowshell.toolkit.standard.exception.code.ErrorCode;
 /**
  * 应用异常
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class IocException extends AppException {
 

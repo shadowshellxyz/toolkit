@@ -2,8 +2,6 @@ package xyz.shadowshell.configuration.client;
 
 import java.io.InputStream;
 import java.util.Properties;
-
-import net.shadowdefender.toolkit.lang.PropertiesUtils;
 import xyz.shadowshell.configuration.client.impl.RemotableConfigurator;
 import xyz.shadowshell.configuration.client.impl.RemoteConfigurator;
 import xyz.shadowshell.configuration.client.impl.StdConfigurator;
@@ -11,11 +9,13 @@ import xyz.shadowshell.configuration.client.impl.CommonConfigurator;
 import xyz.shadowshell.configuration.client.impl.ConfiguratorProvider;
 import xyz.shadowshell.configuration.client.impl.ConfiguratorProviderRepository;
 import xyz.shadowshell.configuration.client.impl.ConfiguratorResources;
-import net.shadowdefender.toolkit.logging.Logger;
-import net.shadowdefender.toolkit.logging.LoggerFactory;
+import xyz.shadowshell.toolkit.lang.PropertiesUtils;
+import xyz.shadowshell.toolkit.logging.Logger;
+import xyz.shadowshell.toolkit.logging.LoggerFactory;
+
 
 /**
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class ConfiguratorFactory {
 

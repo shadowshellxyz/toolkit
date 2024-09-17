@@ -8,14 +8,14 @@ import java.util.concurrent.TimeUnit;
 
 import xyz.shadowshell.configuration.client.impl.AbstractConfiguratorProvider;
 import xyz.shadowshell.configuration.client.impl.ConfiguratorProvider;
-import net.shadowdefender.toolkit.logging.Logger;
-import net.shadowdefender.toolkit.logging.LoggerFactory;
+import xyz.shadowshell.toolkit.logging.Logger;
+import xyz.shadowshell.toolkit.logging.LoggerFactory;
 
 /**
  * 基于API的只读配置器<br>
  * <li>可按照固定频率更新配置数据,删除老数据
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class ApiConfiguratorProvider extends AbstractConfiguratorProvider implements ConfiguratorProvider {
 

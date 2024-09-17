@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * 配置信息加载器
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public interface ConfigInfoLoader {
 

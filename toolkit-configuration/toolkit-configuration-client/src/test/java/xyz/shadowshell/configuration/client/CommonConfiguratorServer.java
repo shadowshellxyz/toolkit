@@ -10,7 +10,7 @@ import xyz.shadowshell.configuration.client.impl.RemotableConfigurator;
 import xyz.shadowshell.configuration.client.impl.RemoteConfigurator;
 
 /**
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class CommonConfiguratorServer {
 

@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
 /**
  * Component
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE})

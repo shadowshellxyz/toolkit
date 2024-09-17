@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * 列
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.FIELD})

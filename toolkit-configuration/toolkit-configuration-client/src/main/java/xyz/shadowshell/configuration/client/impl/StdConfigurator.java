@@ -6,11 +6,12 @@ import java.util.Set;
 
 import xyz.shadowshell.configuration.client.Configurator;
 import xyz.shadowshell.configuration.client.ConfiguratorException;
-import net.shadowdefender.toolkit.standard.exception.AppException;
-import net.shadowdefender.toolkit.standard.resource.Resource;
+import xyz.shadowshell.toolkit.standard.exception.AppException;
+import xyz.shadowshell.toolkit.standard.resource.Resource;
+
 
 /**
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class StdConfigurator implements Configurator {
 

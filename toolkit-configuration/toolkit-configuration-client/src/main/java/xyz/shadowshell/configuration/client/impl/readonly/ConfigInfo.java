@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * 配置信息
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class ConfigInfo implements Serializable {
 

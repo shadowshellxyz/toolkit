@@ -9,7 +9,7 @@ import java.io.RandomAccessFile;
 /**
  * FileLFUCache
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class FileLFUCache {
 

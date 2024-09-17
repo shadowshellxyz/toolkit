@@ -11,7 +11,7 @@ import xyz.shadowshell.toolkit.logging.Logger;
 /**
  * Slf4jLogger
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  * @since 2014-2-13
  */
 public class Slf4jLogger implements Logger, Serializable {

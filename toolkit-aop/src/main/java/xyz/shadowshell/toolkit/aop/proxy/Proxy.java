@@ -3,7 +3,7 @@
 ///**
 // * 代理接口
 // *
-// * @author shadow
+// * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
 // */
 //public interface Proxy {
 //

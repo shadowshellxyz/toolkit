@@ -1,15 +1,15 @@
 package xyz.shadowshell.configuration.client.impl;
 
-import net.shadowdefender.toolkit.logging.Logger;
-import net.shadowdefender.toolkit.logging.LoggerFactory;
-import net.shadowdefender.toolkit.standard.resource.abstracts.AbstractResource;
-import net.shadowdefender.toolkit.standard.resource.exception.CannotDestroyResourceException;
-import net.shadowdefender.toolkit.standard.resource.exception.CannotInitResourceException;
+import xyz.shadowshell.toolkit.logging.Logger;
+import xyz.shadowshell.toolkit.logging.LoggerFactory;
+import xyz.shadowshell.toolkit.standard.resource.abstracts.AbstractResource;
+import xyz.shadowshell.toolkit.standard.resource.exception.CannotDestroyResourceException;
+import xyz.shadowshell.toolkit.standard.resource.exception.CannotInitResourceException;
 
 /**
  * 抽象的配置器提供者
  *
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public abstract class AbstractConfiguratorProvider extends AbstractResource implements ConfiguratorProvider {
 

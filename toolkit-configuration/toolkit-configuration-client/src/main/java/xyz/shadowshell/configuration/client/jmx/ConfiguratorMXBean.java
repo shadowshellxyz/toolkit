@@ -5,7 +5,7 @@ import xyz.shadowshell.toolkit.standard.resource.Resource;
 /**
  * 配置器MBean
  *
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public interface ConfiguratorMXBean extends Resource {
 

@@ -9,7 +9,7 @@ import java.io.File;
 /**
  * 日志输出对象适配器
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  * @since 2014-2-12
  */
 public interface LoggerAdapter {

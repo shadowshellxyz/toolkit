@@ -5,7 +5,7 @@ import java.lang.annotation.Annotation;
 /**
  * 获取注解的模板类
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 abstract class AnnotationClassTemplate extends ClassTemplate {
 

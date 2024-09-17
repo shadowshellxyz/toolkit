@@ -10,7 +10,7 @@
 ///**
 // * 切面代理
 // *
-// * @author shadow
+//  * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
 // */
 //public abstract class AspectProxy implements Proxy {
 //

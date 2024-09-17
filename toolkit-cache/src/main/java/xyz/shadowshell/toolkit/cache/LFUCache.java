@@ -9,7 +9,7 @@ import java.util.Iterator;
  * 最近最不常用
  * 首先淘汰访问次数最少的元素
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class LFUCache<K, V> extends AbstractCacheMap<K, V> {
 

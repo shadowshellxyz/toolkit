@@ -11,7 +11,7 @@ import xyz.shadowshell.toolkit.logging.Logger;
 /**
  * Log4jLogger
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  * @since 2014-2-12
  */
 public class Log4jLogger implements Logger {

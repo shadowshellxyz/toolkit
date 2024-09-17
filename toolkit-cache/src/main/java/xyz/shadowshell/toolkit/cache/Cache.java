@@ -5,7 +5,7 @@ import java.util.Iterator;
 /**
  * Cache
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public interface Cache<K, V> {
 

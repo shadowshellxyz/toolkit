@@ -1,7 +1,7 @@
 package xyz.shadowshell.configuration.client;
 
 /**
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class ConfiguratorClient {
 

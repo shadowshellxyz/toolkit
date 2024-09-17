@@ -19,7 +19,7 @@ import xyz.shadowshell.toolkit.logging.Logger;
 /**
  * JdkLoggerAdapter
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  * @since 2014-2-12
  */
 public class JdkLoggerAdapter implements LoggerAdapter {

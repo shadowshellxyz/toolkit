@@ -3,13 +3,14 @@ package xyz.shadowshell.configuration.client.jmx.impl;
 import xyz.shadowshell.configuration.client.impl.RemotableConfigurator;
 import xyz.shadowshell.configuration.client.jmx.ConfiguratorMXBean;
 import xyz.shadowshell.configuration.client.ConfiguratorException;
-import net.shadowdefender.toolkit.standard.exception.AppException;
-import net.shadowdefender.toolkit.standard.resource.Resource;
+import xyz.shadowshell.toolkit.standard.exception.AppException;
+import xyz.shadowshell.toolkit.standard.resource.Resource;
+
 
 /**
  * ConfiguratorMXBeanImpl
  *
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class ConfiguratorMXBeanImpl implements ConfiguratorMXBean {
 

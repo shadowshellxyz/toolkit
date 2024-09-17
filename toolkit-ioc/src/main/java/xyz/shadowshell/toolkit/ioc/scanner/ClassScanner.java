@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 类扫描器
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 interface ClassScanner {
 

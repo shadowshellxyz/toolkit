@@ -9,7 +9,7 @@ import java.util.Map;
 /**
  * TableMappingInfoTest
  *
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class TableMappingInfoTest {
 

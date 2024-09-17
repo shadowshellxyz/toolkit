@@ -20,7 +20,7 @@ import xyz.shadowshell.toolkit.standard.exception.AppException;
 /**
  * ClassTemplate
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 abstract class ClassTemplate {
 

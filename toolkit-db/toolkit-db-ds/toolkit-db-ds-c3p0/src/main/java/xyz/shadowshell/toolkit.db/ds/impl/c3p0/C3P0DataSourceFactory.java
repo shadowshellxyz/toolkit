@@ -10,7 +10,7 @@ import java.beans.PropertyVetoException;
 /**
  * C3P0 数据源
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class C3P0DataSourceFactory extends AbstractDataSourceFactory<ComboPooledDataSource> {
 

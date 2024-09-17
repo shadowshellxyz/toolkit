@@ -1,17 +1,17 @@
 package xyz.shadowshell.configuration.client.impl;
 
+import xyz.shadowshell.toolkit.standard.exception.AppException;
+
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import net.shadowdefender.toolkit.standard.exception.AppException;
-
 /**
  * RemotableConfigurator
  *
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public interface RemotableConfigurator extends Remote {
 

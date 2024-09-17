@@ -1,7 +1,7 @@
 package xyz.shadowshell.toolkit.logging;
 
 /**
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public interface Logger {
 

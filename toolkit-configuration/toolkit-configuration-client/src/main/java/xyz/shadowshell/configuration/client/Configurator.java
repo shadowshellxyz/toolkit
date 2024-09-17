@@ -1,16 +1,16 @@
 package xyz.shadowshell.configuration.client;
 
+import xyz.shadowshell.toolkit.standard.resource.Resource;
+
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-
-import net.shadowdefender.toolkit.standard.resource.Resource;
 
 /**
  * Configurator<br>
  * <li>Ignore case,trim the blank of before and after
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public interface Configurator extends Resource {
 

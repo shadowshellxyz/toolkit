@@ -6,18 +6,18 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
-import net.shadowdefender.toolkit.lang.io.StreamUtils;
 import xyz.shadowshell.configuration.client.impl.AbstractConfiguratorProvider;
 import xyz.shadowshell.configuration.client.impl.ConfiguratorProvider;
-import net.shadowdefender.toolkit.standard.resource.Resource;
-import net.shadowdefender.toolkit.standard.resource.exception.CannotDestroyResourceException;
-import net.shadowdefender.toolkit.standard.resource.exception.CannotInitResourceException;
+import xyz.shadowshell.toolkit.lang.io.StreamUtils;
+import xyz.shadowshell.toolkit.standard.resource.Resource;
+import xyz.shadowshell.toolkit.standard.resource.exception.CannotDestroyResourceException;
+import xyz.shadowshell.toolkit.standard.resource.exception.CannotInitResourceException;
 
 /**
  * 基于JAVA Properties文件的只读配置器<br>
  * <li> 只在创建配置器的时候获取Properties的配置数据
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class PropertiesConfiguratorProvider extends AbstractConfiguratorProvider implements ConfiguratorProvider {
 

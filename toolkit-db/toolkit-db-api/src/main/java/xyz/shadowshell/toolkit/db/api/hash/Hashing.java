@@ -3,7 +3,7 @@ package xyz.shadowshell.toolkit.db.api.hash;
 /**
  * Hashing
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public interface Hashing {
 

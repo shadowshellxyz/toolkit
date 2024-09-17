@@ -1,6 +1,7 @@
 package xyz.shadowshell.toolkit.db;
 
-import net.shadowdefender.toolkit.standard.exception.AppException;
+
+import xyz.shadowshell.toolkit.standard.exception.AppException;
 
 /**
  * 数据库异常

@@ -6,7 +6,7 @@ import xyz.shadowshell.toolkit.standard.exception.code.ErrorCode;
 /**
  * ConfiguratorException
  *
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class ConfiguratorException extends AppException {
 

@@ -13,14 +13,15 @@ import javax.management.ObjectName;
 import xyz.shadowshell.configuration.client.jmx.ConfiguratorMXBean;
 import xyz.shadowshell.configuration.client.jmx.impl.ConfiguratorMXBeanImpl;
 import xyz.shadowshell.configuration.client.ConfiguratorException;
-import net.shadowdefender.toolkit.logging.Logger;
-import net.shadowdefender.toolkit.logging.LoggerFactory;
-import net.shadowdefender.toolkit.standard.exception.AppException;
+import xyz.shadowshell.toolkit.logging.Logger;
+import xyz.shadowshell.toolkit.logging.LoggerFactory;
+import xyz.shadowshell.toolkit.standard.exception.AppException;
+
 
 /**
  * AbstractConfigurator
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class CommonConfigurator extends AbstractConfigurator implements RemotableConfigurator, Serializable {
 

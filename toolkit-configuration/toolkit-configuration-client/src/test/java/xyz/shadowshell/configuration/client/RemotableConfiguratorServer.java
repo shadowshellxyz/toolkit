@@ -7,7 +7,7 @@ import xyz.shadowshell.configuration.client.impl.CommonConfigurator;
 import xyz.shadowshell.configuration.client.impl.ConfiguratorResources;
 
 /**
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class RemotableConfiguratorServer {
 

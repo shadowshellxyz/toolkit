@@ -6,7 +6,7 @@ import java.util.Iterator;
 /**
  * CacheValuesIterator
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class CacheValuesIterator<V> implements Iterator<V> {
 

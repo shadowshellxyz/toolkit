@@ -1,11 +1,11 @@
 package xyz.shadowshell.configuration.client.impl;
 
-import net.shadowdefender.toolkit.standard.resource.Resource;
+import xyz.shadowshell.toolkit.standard.resource.Resource;
 
 /**
  * Configurator provider
  *
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public interface ConfiguratorProvider extends Resource {
 

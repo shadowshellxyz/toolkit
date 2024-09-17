@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * 标注一个POJO为数据库对应的表
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE})

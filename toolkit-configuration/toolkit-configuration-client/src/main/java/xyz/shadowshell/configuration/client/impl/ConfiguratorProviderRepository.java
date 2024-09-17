@@ -9,7 +9,7 @@ import xyz.shadowshell.configuration.client.ConfiguratorException;
 /**
  * 配置器提供者仓库
  *
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class ConfiguratorProviderRepository {
 

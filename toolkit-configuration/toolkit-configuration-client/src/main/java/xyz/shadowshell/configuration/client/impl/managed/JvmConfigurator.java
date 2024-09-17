@@ -6,14 +6,12 @@ import java.util.concurrent.ConcurrentHashMap;
 import xyz.shadowshell.configuration.client.impl.AbstractConfiguratorProvider;
 import xyz.shadowshell.configuration.client.impl.ConfiguratorProvider;
 import xyz.shadowshell.toolkit.logging.Logger;
-import net.shadowdefender.toolkit.logging.LoggerFactory;
-import net.shadowdefender.toolkit.standard.resource.Resource;
-import net.shadowdefender.toolkit.standard.resource.exception.CannotDestroyResourceException;
+import xyz.shadowshell.toolkit.logging.LoggerFactory;
 
 /**
  * 基于JVM可管理的配置器
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class JvmConfigurator extends AbstractConfiguratorProvider implements ConfiguratorProvider {
 

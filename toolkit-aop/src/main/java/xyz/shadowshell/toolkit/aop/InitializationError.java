@@ -3,7 +3,7 @@ package xyz.shadowshell.toolkit.aop;
 /**
  * 初始化错误
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class InitializationError extends Error {
 

@@ -1,7 +1,7 @@
 package xyz.shadowshell.toolkit.db.annotation;
 
 /**
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class TableTest {
 

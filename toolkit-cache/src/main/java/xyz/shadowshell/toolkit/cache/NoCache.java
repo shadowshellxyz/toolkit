@@ -7,7 +7,7 @@ import java.util.Iterator;
  * Simple no-cache implementations of {@link Cache} for situation when cache
  * needs to be quickly turned-off.
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class NoCache<K, V> implements Cache<K, V> {
 

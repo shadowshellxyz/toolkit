@@ -3,7 +3,7 @@ package xyz.shadowshell.toolkit.ioc.scanner;
 /**
  * 获取子类的模板类
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 abstract class SupperClassTemplate extends ClassTemplate {
 

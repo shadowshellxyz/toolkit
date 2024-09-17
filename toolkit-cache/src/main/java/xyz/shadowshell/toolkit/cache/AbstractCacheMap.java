@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 /**
  * AbstractCacheMap
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public abstract class AbstractCacheMap<K, V> implements Cache<K, V> {
 

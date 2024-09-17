@@ -10,7 +10,7 @@ import java.util.Map;
  * 最近最少使用
  * 首先淘汰最长时间未被使用的元素
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class LRUCache<K, V> extends AbstractCacheMap<K, V> {
 

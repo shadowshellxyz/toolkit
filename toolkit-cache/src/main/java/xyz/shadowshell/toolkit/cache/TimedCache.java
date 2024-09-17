@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * TimedCache
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class TimedCache<K, V> extends AbstractCacheMap<K, V> {
 

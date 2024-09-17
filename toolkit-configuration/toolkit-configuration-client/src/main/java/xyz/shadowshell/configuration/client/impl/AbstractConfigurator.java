@@ -1,5 +1,8 @@
 package xyz.shadowshell.configuration.client.impl;
 
+import xyz.shadowshell.toolkit.logging.Logger;
+import xyz.shadowshell.toolkit.logging.LoggerFactory;
+
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -9,14 +12,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import net.shadowdefender.toolkit.logging.Logger;
-import net.shadowdefender.toolkit.logging.LoggerFactory;
-import net.shadowdefender.toolkit.standard.exception.AppException;
 
 /**
  * AbstractConfigurator
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public abstract class AbstractConfigurator implements RemotableConfigurator {
 

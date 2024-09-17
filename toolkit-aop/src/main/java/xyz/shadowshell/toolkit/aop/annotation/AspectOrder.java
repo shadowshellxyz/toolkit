@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * 定义切面顺序
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)

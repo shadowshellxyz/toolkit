@@ -7,7 +7,7 @@ import java.util.LinkedHashMap;
 /**
  * FIFOCache
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class FIFOCache<K, V> extends AbstractCacheMap<K, V> {
 

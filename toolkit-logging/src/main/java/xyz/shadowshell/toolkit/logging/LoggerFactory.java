@@ -18,7 +18,7 @@ import xyz.shadowshell.toolkit.logging.support.FailsafeLogger;
 /**
  * 日志对象工厂
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  * @since 2014-2-12
  */
 public class LoggerFactory {

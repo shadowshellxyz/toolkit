@@ -16,7 +16,7 @@ import xyz.shadowshell.toolkit.logging.LoggerFactory;
 /**
  * 初始化Bean
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 class BeanFactory {
 

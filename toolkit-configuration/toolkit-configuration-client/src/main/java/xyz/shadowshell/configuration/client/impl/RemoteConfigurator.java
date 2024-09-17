@@ -13,7 +13,7 @@ import xyz.shadowshell.toolkit.standard.resource.exception.CannotInitResourceExc
 /**
  * RemoteConfigurator
  *
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class RemoteConfigurator implements Configurator {
 

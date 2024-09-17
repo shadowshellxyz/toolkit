@@ -5,7 +5,7 @@ import java.lang.annotation.*;
 /**
  * Aspect
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)

@@ -8,7 +8,7 @@ import xyz.shadowshell.toolkit.db.api.annotation.Table;
 /**
  * User
  *
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 @Table("id_user")
 public class User implements Serializable {

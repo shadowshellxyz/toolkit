@@ -13,7 +13,7 @@ import xyz.shadowshell.toolkit.logging.LoggerAdapter;
 /**
  * Slf4jLoggerAdapter
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  * @since 2014-2-13
  */
 public class Slf4jLoggerAdapter implements LoggerAdapter {

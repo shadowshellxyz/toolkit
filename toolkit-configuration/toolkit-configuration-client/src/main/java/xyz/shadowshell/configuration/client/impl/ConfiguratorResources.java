@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * ConfiguratorResources
  *
- * @author: ShadowDefender
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  */
 public class ConfiguratorResources implements Serializable {
 

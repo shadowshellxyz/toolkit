@@ -9,7 +9,7 @@ import xyz.shadowshell.toolkit.logging.Logger;
 /**
  * 日志类
  *
- * @author shadow
+ * @author shadowwalkerxyz@qq.com<wwww.shadowshell.xyz>
  * @since 2014-2-12
  */
 public class FailsafeLogger implements Logger {
